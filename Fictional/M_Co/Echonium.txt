@@ -15,7 +15,7 @@ Echonium-235: A little rarer than Echonium-233, Neutron emitter, Used in Nuclear
 
 Echonium-237: Exercise extreme caution, Very radioactive and unstable, It has Properties that we do not understand at this time
 This material was made after experimentation of Plutonium,
-The laboratory disappeared 2 days after 237 was discovered, No traces of it ever existing, Rumors has it that its still out there somewhere
+Facility-27 disappeared 2 days after Echonium-237 was discovered, No traces of it ever existing, Rumors has it that its still out there somewhere
 
 
 First discovered by: Dr. John Mann
