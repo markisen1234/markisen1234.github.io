@@ -1,0 +1,55 @@
+[+==M Co. Public documents==+]
+
+Name: Echonium
+Page: 1 of 1
+
+Echonium is a material found while experimenting with a crystal form of U-233
+
+There are many Isotopes
+
+Echonium-230: Most common, Stronger than steel
+
+Echonium-233: Another common one, Melts at 20°C, Properties unknown
+
+Echonium-235: A little rarer than Echonium-233, Neutron emitter, Used in Nuclear power
+
+Echonium-237: Exercise extreme caution, Very radioactive and unstable, It has Properties that we do not understand at this time
+This material was made after experimentation of Plutonium,
+Facility-#27 disappeared 2 days after Echonium-237 was discovered, No traces of it ever existing, Rumors has it that its still out there somewhere
+
+
+First discovered by: Dr. John Mann
+First discovered in Facility-#13
+
+Logs (1 "Echonium-230" Faclity-#13) {
+[+==M Co.==+]
+Dr. John Mann (Dr. J.M)
+[Begin]
+Dr. J.M: Lets see... Ah right, im supposed to test on Uranium-233.
+[Dr. J.M inserts U-233 into a Tray]
+[Dr. J.M inserts the Tray into the Research Core]
+[Dr. J.M Starts the Particle Beam at 25%]
+[2m later]
+Dr. J.M: [looks at the Power] Why is it going up so fast?
+Dr. J.M: Uhh... I dont think this is good...
+Dr. J.M: Oh no...
+[Suddenly all the alarms go off]
+Dr. J.M: No no no no... This isnt good...
+Dr. J.M: [Walks backwards slowly]
+Dr. J.M: [Bumps into a Wall]
+Dr. J.M: Well...
+[Suddenly a loud bang happens]
+Dr. J.M: [Blinded] AAH!
+[The Power goes out]
+Dr. J.M: [Regains sight] What just happened...
+[The Power switches back on]
+Dr. J.M: [looks at the new Material inside] What is that...
+[The Material glows Blue]
+Dr. J.M: Wow... I have never seen that...
+[Dr. J.M Opens the chamber and carefully grabs the Echonium]
+Dr. J.M: I must report this to my Superiors
+[Dr. J.M Walks out of the room]
+[End]
+}
+
+EOF
