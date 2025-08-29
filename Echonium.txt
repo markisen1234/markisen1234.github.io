@@ -9,7 +9,7 @@ There are many Isotopes
 
 Echonium-230: Most common, Stronger than steel
 
-Echonium-233: Another common one, Melts at 20°C, Properties unknown
+Echonium-233: Another common one, Feels like a very soft fabric, Warm
 
 Echonium-235: A little rarer than Echonium-233, Neutron emitter, Used in Nuclear power
 
@@ -17,6 +17,25 @@ Echonium-237: Exercise extreme caution, Very radioactive and unstable, It has Pr
 This material was made after experimentation of Plutonium,
 Facility-#27 disappeared 2 days after Echonium-237 was discovered, No traces of it ever existing, Rumors has it that its still out there somewhere
 
+Required mass for criticality:
+	Echonium-230: NaN
+	Echonium-233: NaN
+	Echonium-235: ~75kg
+	Echonium-237: ~500g
+
+Safety protocals;
+	Echonium-230: None
+	Echonium-233: None
+	Echonium-235:
+		In case of reactor meltdown:
+			Get a M Co. Standard issue HAZMAT suit
+		In case of nuclear explosion:
+			Run
+	Echonium-237:
+		Stay away from it at all costs
+		Do not try to come near it
+		Get out of the Building
+		Stay 150m away from the Building
 
 First discovered by: Dr. John Mann
 First discovered in Facility-#13
