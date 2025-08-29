@@ -7,7 +7,7 @@ Echonium is a material found while experimenting with a crystal form of U-233
 
 There are many Isotopes
 
-Echonium-230: Most common, Stronger than steel
+Echonium-230: Most common, Stronger than steel, Melting point: 5000°C, can be a Heat Shield
 
 Echonium-233: Another common one, Feels like a very soft fabric, Warm
 
