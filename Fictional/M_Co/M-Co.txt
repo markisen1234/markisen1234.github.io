@@ -7,3 +7,5 @@ Soliders: 750
 Logo: [+==M Co.==+]
 
 This Company is in all my Text-Games
+
+EOF
