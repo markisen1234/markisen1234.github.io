@@ -23,7 +23,7 @@ Required mass for criticality:
 	Echonium-235: ~75kg
 	Echonium-237: ~500g
 
-Safety protocals;
+Safety protocals:
 	Echonium-230: None
 	Echonium-233: None
 	Echonium-235:
