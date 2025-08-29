@@ -1,0 +1,24 @@
+[+==M Co. Public Documents.==+]
+
+ID:M03
+Name: Pyronium
+Page: 1 of 1
+
+Pyronium was made when mixing Cryonium-A with Echonium-235, 
+then heating it to 2500°C and blasting it with neutrons
+Pyronium is very unstable
+
+There are currently 2 known isotopes
+
+Pyronium-238 Is the most common one, it is permanently at 2000°C
+Dont touch it, It is a very hard material, its red and looks like a Crystal
+It reacts violently with acid, The strongest reaction is from sulfuric acid
+
+Pyronium-240 Is very rare, and very unstable,
+It reacts violently with Water and any Acid, once in contact with Water or Acid
+it will make Echonium-235 and Pyromium-238 with a violent chemical explosion
+
+Discovered by: [Classified]
+Discovered in: Facility-#14
+
+EOF
