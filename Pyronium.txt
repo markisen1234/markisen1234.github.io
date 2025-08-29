@@ -21,4 +21,18 @@ it will make Echonium-235 and Pyromium-238 with a violent chemical explosion
 Discovered by: [Classified]
 Discovered in: Facility-#14
 
+Required for critical mass:
+	Pyronium-238: ~3kg
+	Pyronium-240: ~350g
+
+Safety protocols:
+	Pyronium-238:
+		Do not come near it
+		Call M Co.
+		Stay 50m away as it radiates heat
+		Stay Calm
+	Pyronium-240:
+		Do not come near it
+		Call M Co.
+		Run
 EOF
