@@ -1,5 +1,5 @@
 #!/bin/bash
-B="#";R=5;HP=5;D=0;EHP=5;ED=0;M=2
+B="#";R=5;HP=5;D=0;EHP=5;ED=0;M=2;EHEAL=1;HEAL=1;EB="#";ER=5;
 SHOOT() {
   if [[ "$B" = "#" ]]; then
     ((EHP--));B="-"
@@ -13,6 +13,11 @@ R() {
     B="#";((R--))
   else
     echo "Oops, no ammo"
+  fi
+}
+ESHOOT() {
+  if [[ "$EB" = "#" ]]; then
+    
   fi
 }
 while true; do
@@ -34,11 +39,25 @@ while true; do
       echo '   \/    | ####  |  |____| | \  |'
       exit 0
     fi
+    if [[ "$HP" -eq 0]]; then
+      echo "Fail"
+      exit 0
+    fi
     if [[ "$INPUT" = "shoot" ]]; then
       SHOOT
     fi
     if [[ "$INPUT" = "reload" ]]; then
       R
     fi
+    if [[ "$INPUT" = "heal" ]]; then
+      if [[ "$HEAL" -gt 0 ]]; then
+        HP=$((HP + 2))
+        ((HEAL--))
+    fi
   done
+  if [[ "$EHP" -gt 3]]; then
+    for ((j=2; j>0; j--)); do
+      if [[]]
+    done
+  else
 done
