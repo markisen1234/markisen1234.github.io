@@ -1,0 +1,14 @@
+[+==M Co. Public Documents.==+]
+
+ID:T01
+Name: Anti-Matter Disposal Unit (AMDU)
+
+The AMDU uses .5mg to disintegrate Hazardous Materials like Pyronium or Cryonium
+Safety Protocols:
+    Once Materials Placed inside:
+        Exit the Chamber
+        Turn Key
+        Press Button with label "Dispose"
+
+The AMDU has never malfunctioned in its history, it was created 15Y ago
+Required access level to activate: 3A (Scientist)
