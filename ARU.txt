@@ -1,0 +1,8 @@
+[+==M Co. Public Documents.+==]
+
+ID:T02
+Name: ARU ("Automatic Reconstruction Unit")
+
+This Unit is in all M Co. Machines, if the main Machine is damaged it will attempt automatic repair
+it uses MTE ("MaTerial Energy"), a special Energy made when disposing materials in the AMDU
+Further information is classified
