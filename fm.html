@@ -4,63 +4,65 @@
   <meta charset="UTF-8">
   <title>Marks Page</title>
   <style>
-  body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: lightblue;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: lightblue;
+    }
 
-  .file-manager {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+    .file-manager {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
 
-  .file {
-    width: 120px;
-    text-align: center;
-  }
+    .file {
+      width: 120px;
+      text-align: center;
+    }
 
-  .file img {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin-bottom: 5px;
-    cursor: pointer;
-    border: 5px solid #ccc;
-    border-radius: 4px;
-    padding: 5px;
-    transition: transform 0.2s;
-    
-    image-rendering: crisp-edges;
-    object-fit: cover;
-  }
+    .file img {
+      width: 100px;   /* Display size */
+      height: 100px;  /* Display size */
+      display: block;
+      margin-bottom: 5px;
+      cursor: pointer;
+      border: 5px solid #ccc;
+      border-radius: 4px;
+      padding: 5px;
+      transition: transform 0.2s;
+      
+      /* Keep image sharp on scaling */
+      image-rendering: crisp-edges;
+      object-fit: cover;
+    }
 
-  .file img:hover {
-    transform: scale(1.1);
-  }
+    .file img:hover {
+      transform: scale(1.1);
+    }
 
-  .file a {
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-  }
+    .file a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
 
-  .file a:hover {
-    color: #007BFF;
-  }
-</style>
+    .file a:hover {
+      color: #007BFF;
+    }
+  </style>
 </head>
 <body>
   <h1>Welcome.</h1>
   <hr>
   <div class="file-manager">
     <div class="file">
-        <a href="M-Co.html">
-            <img src="folder.png" alt="M-Co">
-            <br>
-            M-Co
-        </a>
+      <a href="M-Co.html">
+        <img src="folder@2x.png" width="100" height="100" alt="M-Co">
+        <br>
+        M-Co
+      </a>
     </div>
   </div>
 </body>
+</html>
