@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marks Page</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .file-manager {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .file {
+    width: 120px;
+    text-align: center;
+  }
+
+  .file img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    transition: transform 0.2s;
+  }
+
+  .file img:hover {
+    transform: scale(1.1);
+  }
+
+  .file a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+
+  .file a:hover {
+    color: #007BFF;
+  }
+</style>
+</head>
+<body>
+  <h1>Welcome.</h1>
+  <hr>
+  <div class="file-manager">
+    <div class="file">
+        <a href="M-Co.html">
+            <img src="folder.ico" alt="M-Co">
+            <br>
+            M-Co
+        </a>
+    </div>
+  </div>
+</body>
