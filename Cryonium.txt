@@ -14,6 +14,9 @@ First discovered in: Facility-#14
 
 Stay safe.
 
+
+Upon further research we have found out that Cryonium is a compound
+not an element.
 (230)Ec₅₂₀₀₃(235)U₂₅Br₅C₂₉₉₅₀
 
 EOF
