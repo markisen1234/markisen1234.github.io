@@ -1,5 +1,4 @@
 [+==M Co. Public Documents.==+]
-
 ID:M02
 Name: Cryonium
 Page: 1 of 1
@@ -8,16 +7,13 @@ Cryonium was discovered after an Experiment with Echonium-235
 
 It has only one known isotope at this time
 Cryonium-A
-Cryonium-A Is extremely cold at all times, It can only be destroyed by ~1kt+ explosions
-Do not touch it if you dont have special Gloves designed for -75°C
-Cryonium-A Can also be used as a "Super-Cooler"
-At this time there is not much information
-
-Stay atleast 7.5m away from it so you dont get frozen
+Cryonium-A can feel cold even if its 100+°C
 
 First discovered by: Dr. Mike Ross
 First discovered in: Facility-#14
 
 Stay safe.
+
+(230)Ec₅₂₀₀₃(235)U₂₅Br₅C₂₉₉₅₀
 
 EOF
