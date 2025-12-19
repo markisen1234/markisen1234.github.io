@@ -1,2 +1,4 @@
 # markisen1234.github.io
-this is just my website
+
+## License
+ Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)
