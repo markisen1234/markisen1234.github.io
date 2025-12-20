@@ -1,23 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <title>animations</title>
-    </head>
-    <body>
-        <h1>Information page of animations</h1>
-        <hr>
-        <marquee behavior="scroll" direction="left" scrollamount="10">
-         +++ Information to animation Operation Bravo: 0% progress; Release date: Unknown; Not available +++ . . . . . +++ New Test animation created : target-range0001-0300 +++
-        </marquee>
-        <hr>
-        <h2>Downloads:</h2>
-        <h3>Test animations:</h3>
-        <p>File Name / File Size / Made in ... / File Type / Extra info</p>
-        <br>
-        <a href="test/watermarked_M1Rfire.mkv" download>M1Rfire / 494 KB / Blender / Matroska Video</a>
-        <br>
-        <a href="test/watermarked_target-range0001-0300.mkv" download>target-range0001-0300 / 385 KB / Blender / Matroska Video / Longest animation (12.5s)</a>
-        <br>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Animations</title>
+    <style>
+        .scroll-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll-left 15s linear infinite;
+            font-weight: bold;
+        }
+
+        @keyframes scroll-left {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a:hover {
+            color: #ff6600;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Information Page of Animations</h1>
+    <hr>
+
+    <div class="scroll-text">
+        +++ Information to animation Operation Bravo: 0% progress; Release date: Unknown; Not available +++ . . . . . +++ New Test animation created : target-range0001-0300 +++
+    </div>
+
+    <hr>
+    <h2>Downloads</h2>
+
+    <table>
+        <tr>
+            <th>File Name</th>
+            <th>Size</th>
+            <th>Made In</th>
+            <th>File Type</th>
+            <th>Extra Info</th>
+        </tr>
+        <tr>
+            <td><a href="test/watermarked_M1Rfire.mkv" download>M1Rfire</a></td>
+            <td>494 KB</td>
+            <td>Blender</td>
+            <td>Matroska Video</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td><a href="test/watermarked_target-range0001-0300.mkv" download>target-range0001-0300</a></td>
+            <td>385 KB</td>
+            <td>Blender</td>
+            <td>Matroska Video</td>
+            <td>Longest animation (12.5s)</td>
+        </tr>
+    </table>
+</body>
 </html>
