@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>list</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .file-manager {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .file-manager .item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .file-manager .item:last-child {
+    border-bottom: none;
+  }
+
+  .file-manager .item:hover {
+    background: #f0f0f0;
+  }
+
+  .item .icon {
+    font-size: 24px;
+    width: 40px;
+  }
+
+  .item .name {
+    flex: 1;
+    font-size: 15px;
+  }
+
+  .folder .icon {
+    color: #ffcc00;
+  }
+
+  .file .icon {
+    color: #1e90ff;
+  }
+
+</style>
+</head>
+<body>
+  <div class="item folder">
+    <div class="icon">[D]</div>
+    <div class="name">
+      <a href="Public.html">M Co Public Documents</a>
+    </div>
+  </div>
+</body>
+</html>
