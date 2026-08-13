@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Aero Div</title>
+        <title>M Co.</title>
         <style>
             body {
                 background-color: #c0c0c0;
@@ -61,22 +61,33 @@
                 padding: 1px;
                 font-family: sans-serif;
             }
+            details {
+                border: 2px solid #000;
+                border-radius: 4px;
+                padding: 5px 10px;
+            }
+            details[open] {
+                border-color: #5f5fff;
+            }
         </style>
     </head>
     <body>
         <p class="i">/m_co/aero</p>
-        <h1>M Co. Aero Division</h1>
+        <h1>M Co.</h1>
         <h5>This is fictional.</h5>
         <hr>
-        <div class="fm">
-            <ul>
-                <li>Propellor aircraft
-                    <ul>
-                        <li><a class="wip">B-1E6EC3P.I</a></li>
-                        <li><a class="wip">F-1E8EC2P.I</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+
+        <details>
+            <summary>Aero</summary>
+        </details>
+        <details>
+            <summary>Army</summary>
+        </details>
+        <details>
+            <summary>Navy</summary>
+        </details>
+        <details>
+            <summary>Energy</summary>
+        </details>
     </body>
 </html>
