@@ -66,8 +66,18 @@
                 border-radius: 4px;
                 padding: 5px 10px;
             }
+            details.wip {
+                border: 2px solid #FF0000;
+                border-radius: 4px;
+                padding: 5px 10px;
+            }
             details[open] {
                 border-color: #5f5fff;
+            }
+            details[open].wip {
+                border: 2px solid #FF0000;
+                border-radius: 4px;
+                padding: 5px 10px;
             }
         </style>
     </head>
@@ -76,7 +86,7 @@
         <h5>This is fictional.</h5>
         <hr>
 
-        <details>
+        <details class="wip">
             <summary>Aero</summary>
         </details>
         <details>
@@ -95,10 +105,10 @@
                 </details>
             </details>
         </details>
-        <details>
+        <details class="wip">
             <summary>Navy</summary>
         </details>
-        <details>
+        <details class="wip">
             <summary>Energy</summary>
         </details>
         <footer>Copyright (C) 2026 Marko Markovic | CC BY 4.0</footer>
