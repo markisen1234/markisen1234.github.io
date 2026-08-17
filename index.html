@@ -10,10 +10,9 @@
             }
             h1 {
                 color: black;
-                background-color: lightblue;
                 border: 2px solid;
-                border-color: cyan;
-                padding: 5px 15px;
+                border-color: black;
+                padding: 1px;
                 text-decoration: none;
                 font-family: sans-serif;
                 display: inline-block;
@@ -31,16 +30,105 @@
             }
             a.w:active {
                 color: black;
+                border-color: #5f5f5f #ffffff #ffffff #5f5f5f;
+            }
+            a.wip {
+                background-color: #c0c0c0;
+    
+                border: 2px solid;
+                border-color: #ffffff #5f5f5f #5f5f5f #ffffff;
+
+                padding: 10px 20px;
+                color: #888;
+                cursor: not-allowed;
+                font-family: sans-serif;
+                text-decoration: none;
+                display: inline-block;
+            }
+            p.i {
+                color: black;
+                background-color: #c0c0c0;
+                border: 1px solid;
+                border-color: #5f5f5f #ffffff #ffffff #5f5f5f;
+                padding: 1px;
+                text-decoration: none;
+                font-family: sans-serif;
+            }
+            div.fm {
+                background-color: #c0c0c0;
+                border: 1px solid;
+                border-color: #5f5fff #ffffff #ffffff #5f5fff;
+                padding: 1px;
+                font-family: sans-serif;
+            }
+            details {
+                width: 80%;
+                color: black;
                 background-color: #c0c0c0;
                 border: 2px solid;
-                border-color: #5f5f5f #ffffff #ffffff #5f5f5f;
+                border-color: #ffffff #5f5f5f #5f5f5f #ffffff;
+                padding: 5px 10px;
+                text-decoration: none;
+                font-family: sans-serif;
+                display: inline-block;
+                cursor: pointer;
+            }
+            details.two {
+                color: black;
+                background-color: #c0c0c0;
+                border: 2px solid;
+                border-color: #ffffff #5f5f5f #5f5f5f #ffffff;
                 padding: 5px 15px;
                 text-decoration: none;
                 font-family: sans-serif;
+                display: inline-block;
+                cursor: pointer;
+                position: relative;
+            }
+            details.two > .dropdown {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 9999;
+                background-color: #c0c0c0;
+                border: 2px solid;
+                border-color: #ffffff #5f5f5f #5f5f5f #ffffff
+                padding: 5px;
+                margin-top: 2px;
+            }
+            details.wip {
+                width: 80%;
+                color: black;
+                background-color: #cfc0c0;
+                border: 2px solid;
+                border-color: #ffffff #bf5f5f #bf5f5f #ffffff;
+                padding: 5px 10px;
+                text-decoration: none;
+                font-family: sans-serif;
+                display: inline-block;
+                cursor: not-allowed;
+                pointer-events: none;
+            }
+            details[open] {
+                color: black;
+                border-color: #5f5f5f #ffffff #ffffff #5f5f5f;
+            }
+            p.headermco {
+                width: 100%;
+                border: 2px solid;
+                border-color: #5f5f5f #ffffff #ffffff #5f5f5f;
+                outline: 2px solid;
+                outline-color: #ffffff #5f5f5f #5f5f5f #ffffff;
             }
         </style>
     </head>
     <body>
+        <details class="two">
+            <summary>Menu</summary>
+            <div class="dropdown">
+                <a href="m_co/">M Co.</a>
+            </div>
+        </details>
         <h1>Mark's Website</h1>
         <hr>
         <p>Welcome to my website, made by Marko Markovic (Markisen1234)</p>
